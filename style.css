@@ -35,10 +35,7 @@ body {
     display: flex;
 }
 
-.col-md-7 {
-    flex: 0 0 58.33333%;
-    max-width: 58.33333%;
-}
+
 
 
 
@@ -71,10 +68,13 @@ body {
         flex: 0 0 66.66667%;
         max-width: 66.66667%;
     }
+    .col-md-7 {
+        flex: 0 0 58.33333%;
+        max-width: 58.33333%;
+    }
     .menu-list {
         display: flex;
         justify-content: center;
-
     }
     .header {
         display: flex;
@@ -110,7 +110,7 @@ body {
         text-transform: uppercase;
     }
     
-    .col-md-2 input{
+    .col-md-2 input {
         display: flex;
         position: relative;
         background-color: #1d2126;
@@ -133,7 +133,6 @@ body {
         align-items: center;
         height: 660px;
         background-image: url(../modest/img/bc.jpg);
-
     }
     .slider-title {
         color: white;
@@ -165,6 +164,8 @@ body {
         color: white;
       }
 }
+
+
 
 /*desktop*/
 @media (min-width: 1200px) {
