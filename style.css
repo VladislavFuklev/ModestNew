@@ -43,11 +43,6 @@ body {
 
 
 
-
-
-
-
-
 /*tablet*/
 @media (min-width: 768px) {
     .container  {
@@ -134,13 +129,15 @@ body {
         top: 30px;
     }
     .slider {
+        display: flex;
+        align-items: center;
         background-image: url(../modest/img/bc.png);
         height: 660px;
     }
     .slider-title {
         color: white;
-    font-size: 36px;
-    text-transform: uppercase;
+        font-size: 36px;
+        text-transform: uppercase;
     }
     .sider-text {
         margin-top: 34px;
@@ -148,7 +145,7 @@ body {
         font-size: 16px;
     }
     .slider-btn {
-    margin-top: 40px;
+        margin-top: 40px;
 
     }
     .slider-btn button {
