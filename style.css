@@ -85,7 +85,7 @@ body {
 }
 
 .slider {
-  background-image: url(../modest/bc.png);
+  background-image: url(../modest/img/bc.jpg);
 }
 
 .header {
@@ -138,6 +138,9 @@ body {
     flex: 0 0 16.66667%;
     max-width: 16.66667%;
   }
+  .col-md-2 {
+    display: none;
+    }
   .col-sm-10 {
     flex: 0 0 83.33333%;
     max-width: 83.33333%;
@@ -151,9 +154,11 @@ body {
     max-width: 960px;
   }
   .col-md-2 {
-    flex: 0 0 16.66667%;
-    max-width: 16.66667%;
+      display: flex;
+        flex: 0 0 16.66667%;
+        max-width: 16.66667%;
   }
+  
   .col-md-8 {
     flex: 0 0 66.66667%;
     max-width: 66.66667%;
