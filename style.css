@@ -35,6 +35,10 @@ body {
     display: flex;
 }
 
+.col-sm-7 {
+
+}
+
 .header {
     display: flex;
     height: 80px;
@@ -44,7 +48,8 @@ body {
 
 .menu-list {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+
 }
 .menu-list li {
     border: 1px solid #1d2026;
@@ -87,6 +92,13 @@ body {
     right: 160px;
     top: 30px;
 }
+
+
+.slider {
+    height: 660px;
+    background-image: url(../modest/img/bc.png);
+}
+
 
 
 
@@ -133,13 +145,8 @@ body {
        display: none;
    }
    .menu-list {
-       display: flex;
-       align-items: baseline;
-       width: 100%;
        overflow: scroll;
        margin-top: 10px;
    }
-   
-   
    
 }
