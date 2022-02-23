@@ -129,10 +129,11 @@ body {
         top: 30px;
     }
     .slider {
-        background-image: url(../modest/img/bc.png);
         display: flex;
         align-items: center;
         height: 660px;
+        background-image: url(../modest/img/bc.png);
+
     }
     .slider-title {
         color: white;
