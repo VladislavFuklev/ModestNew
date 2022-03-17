@@ -38,9 +38,13 @@ body {
   flex: 0 0 33.33333%;
   max-width: 33.33333%;
 }
-.col-md-3 {
+.col-md-2 {
   flex: 0 0 16.66667%;
   max-width: 16.66667%;
+}
+.col-md-3 {
+  flex: 0 0 25%;
+  max-width: 25%;
 }
 .menu-list {
   display: flex;
@@ -265,6 +269,115 @@ body {
   margin: 1px;
 
 }
+
+.kart {
+  height: 900px;
+  background-color: #39454d;
+}
+
+.kart-top {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 54px;
+}
+.kart-image {
+  display: flex;
+  align-items: flex-end;
+  margin: 10px;
+}
+.kart-title {
+  text-transform: uppercase;
+  margin-top: 85px;
+  margin-left: 22px;
+  font-size: 36px;
+  color: white;
+}
+.kart-none {
+  opacity: 0;
+  position: absolute;
+  background-color: #292f35;
+  padding: 20px;
+  color: #f1f1f2;
+  width: 360px;
+  -webkit-transition: all 0.5s ease;;
+  -moz-transition: all 0.5s ease;;
+  -o-transition: all 0.5s ease;;
+  transition: all 0.5 s ease;
+}
+.kart-btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.kart-btn button {
+  background-color: #39454d;
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid #ffffff;
+  color: white;
+  text-transform: uppercase;
+  -webkit-transition: all 0.3s ease;;
+  -moz-transition: all 0.3s ease;;
+  -o-transition: all 0.3s ease;;
+  transition: all 0.3s ease;
+}
+.kart-image:hover {
+  cursor: pointer;
+}
+.kart-image:hover .kart-none {
+  opacity: 1;
+  cursor: pointer;
+}
+.kart-btn button:hover {
+  background-color: #39a492;
+  cursor: pointer;
+  
+}
+
+
+.gajet {
+  height: 890px;
+}
+.gajet-top {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 54px;
+}
+.gajet-title {
+  text-transform: uppercase;
+  margin-top: 85px;
+  margin-left: 22px;
+  font-size: 36px;
+  color: black;
+}
+.gajet-name {
+  text-transform: uppercase;
+}
+.gajet-deskr {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  width: 20%;
+}
+.gajet-name {
+  margin-top: 15px;
+  font-size: 17px;
+}
+.gajet-text {
+  margin-top: 15px;
+  color: #abadaf;
+  font-size: 16px;
+  text-align: center;
+}
+
+
+
+
+
 /*tablet*/
 @media (min-width: 768px) {
   .container {
