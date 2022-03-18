@@ -338,7 +338,7 @@ body {
 
 
 .gajet {
-  height: 890px;
+  height: 790px;
 }
 .gajet-top {
   display: flex;
@@ -374,6 +374,66 @@ body {
   text-align: center;
 }
 
+
+.features {
+  height: 730px;
+  background-color: #39454d;
+}
+
+.features-top {
+  display: flex;
+  margin-top: 62px;
+}
+
+.features-kart {
+  margin: 10px;
+  
+}
+.features-name {
+  margin-top: 45px;
+  font-size: 18px;
+  color: white;
+  text-transform: uppercase;
+}
+
+.features-text {
+  margin-top: 25px;
+  color: #dcdfe1;
+  font-size: 16px;
+}
+.features-title {
+  text-transform: uppercase;
+  margin-top: 85px;
+  margin-left: 22px;
+  font-size: 36px;
+  color: white;
+}
+
+
+.map {
+  height: 860px;
+}
+
+
+
+.footer {
+  height: 94px;
+  background-color: #39454d;
+
+}
+.footer-text {
+  color: white;
+}
+
+
+.footer-deskr {
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 70px;
+  margin-right: 70px;
+}
 
 
 
