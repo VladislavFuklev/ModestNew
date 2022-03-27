@@ -609,7 +609,7 @@ body {
     text-align: center;
   }
   .modest {
-    height: 460px;
+    height: 100%;
   }
   .modest-text {
     margin-top: 15px;
@@ -627,14 +627,16 @@ body {
   }
   .team {
     height: 100%;
-    text-align: center;
+    padding: 20px;
   }
   .team-top {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
   }
   .team-title {
     margin-top: 10px;
+    text-align: center;
   }
 
   .kart {
@@ -658,6 +660,10 @@ body {
 
   .gajet {
     height: 100%;
+  }
+  .gajet-top{
+    display: flex;
+    flex-direction: column;
   }
   .gajet-title {
     margin-top: 0;
@@ -695,5 +701,49 @@ body {
     font-size: 14px;
     text-align: center;
     margin-top: 10px;
+  }
+.map {
+  height: 100%;
+  padding: 20px;
+}
+
+  .form-message input {
+    width: 100%;
+  }
+  .form{
+    margin-top: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  .inp-one input {
+    width: 324px;
+  }
+  .inp-two input {
+    width: 324px;
+
+  }
+  .form-btn button {
+    text-align: center;
+  }
+  .left-text{
+    text-align: center;
+  }
+  .left-title{
+    text-align: center;
+  }
+
+  .footer{
+    height: 100%;
+    padding: 20px;
+    width: 100%;
+
+  }
+  .footer-deskr {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer-text{
+    text-align: center;
   }
 }
