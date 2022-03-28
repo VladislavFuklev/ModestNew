@@ -149,11 +149,22 @@ body {
 .modest-top {
   display: flex;
 }
+.modest-bc {
+  width: 10px;
+  height: 35px;
+  background-color: rgb(224, 224, 224);
+  margin-right: 10px;
+}
 
 .modest-name {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  align-items: center;  
   font-size: 36px;
   margin-top: 85px;
   margin-left: 5px;
+  
 }
 .modest-text {
   margin-top: 65px;
@@ -225,9 +236,13 @@ body {
   margin: 10px;
 }
 .team-title {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  align-items: center;  
   text-transform: uppercase;
   margin-top: 85px;
-  margin-left: 22px;
+  margin-left: 10px;
   font-size: 36px;
 }
 .man-deskr {
@@ -290,9 +305,13 @@ body {
   margin: 10px;
 }
 .kart-title {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  align-items: center; 
   text-transform: uppercase;
   margin-top: 85px;
-  margin-left: 22px;
+  margin-left: 11px;
   font-size: 36px;
   color: white;
 }
@@ -348,6 +367,10 @@ body {
   margin-top: 54px;
 }
 .gajet-title {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  align-items: center; 
   text-transform: uppercase;
   margin-top: 85px;
   margin-left: 22px;
@@ -401,9 +424,13 @@ body {
   font-size: 16px;
 }
 .features-title {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  align-items: center; 
   text-transform: uppercase;
   margin-top: 85px;
-  margin-left: 22px;
+  margin-left: 11px;
   font-size: 36px;
   color: white;
 }
@@ -434,6 +461,10 @@ body {
   height: 300px;
 }
 .map-title {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  align-items: center; 
   text-transform: uppercase;
   margin-top: 85px;
   margin-left: 150px;
