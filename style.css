@@ -47,9 +47,7 @@ body {
   flex: 0 0 25%;
   max-width: 25%;
 }
-.menu-list {
-  display: flex;
-}
+
 
 .menu-list {
   display: flex;
@@ -58,16 +56,19 @@ body {
   border: 1px solid #1d2026;
   padding: 5px 10px;
 }
-.menu-list span {
-  border: 1px solid #1d2026;
+
+.menu-list a{
+  padding: 5px 10px;
+}
+.home a {
+  padding: 5px 10px;
 }
 
-.home:hover {
-  border: none;
+.home a:hover {
   border: 1px solid #39a492;
   border-radius: 5px;
 }
-.menu-list li:hover {
+.menu-li a:hover {
   border: 1px solid #5a6068;
   border-radius: 5px;
 }
@@ -76,6 +77,7 @@ body {
   text-decoration: none;
   font-size: 14px;
   text-transform: uppercase;
+  border: 1px solid #1d2126;
 }
 
 .col-md-2 input {
