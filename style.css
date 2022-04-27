@@ -43,9 +43,10 @@ body {
   max-width: 16.66667%;
 }
 
-.col-md-3 {
-  flex: 0 0 25%;
-  max-width: 25%;
+
+.col-md-5 {
+  flex: 0 0 41.66666%;
+  max-width: 41.66666%;
 }
 
 
@@ -144,150 +145,85 @@ body {
   cursor: pointer;
   color: white;
 }
-
+/* WE ARE MODEST */
 .modest {
   height: 610px;
 }
-.modest-top {
-  display: flex;
-}
-.modest-bc {
-  width: 10px;
-  height: 35px;
-  background-color: rgb(224, 224, 224);
-  margin-right: 10px;
-}
-
-.modest-name {
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: flex-end;
-  align-items: center;  
+.title {
+  margin-top: 88px;
   font-size: 36px;
-  margin-top: 85px;
-  margin-left: 5px;
-  
-}
-.modest-text {
-  margin-top: 65px;
-  font-size: 16px;
-  color: #8d8f92;
-}
-.modest-text p {
-  margin-top: 40px;
-}
-.modest-text span {
-  font-weight: bold;
-}
-.modest-mass button {
-  margin-top: 55px;
-  border: none;
-  background-color: #c7cdd0;
-  transition: 0.5s all;
-}
-.modest-mass button:hover {
-  background-color: #39a492;
-}
-
-.modest-descr {
-  margin-top: 180px;
-}
-.modest-descr-title {
-  font-size: 18px;
+  border-left: 10px solid #e1e5e9;
+  padding-left: 10px;
   text-transform: uppercase;
 }
-.modest-descr-text {
+.modest_top {
+  display: flex;
+}
+.modest_left{
+  margin-top: 65px;
+}
+.modest_descr_two{
+  margin-top: 40px;
+}
+.modest_btn{
+  margin-top: 55px;
+}
+.modest_btn button {
+  border: none;
+  background-color: grey;
+  transition: 0.5s all;
+}
+.modest_btn button:hover {
+  background-color: #23b7a3;
+}
+.modest_descr_right{
+  margin-top: 60px;
+}
+.block_one_title{
+  font-size: 18px;
+  margin-top: 20px;
+  text-transform: uppercase;
+}
+.block_one_text{
+  margin-top: 20px;
   font-size: 16px;
   color: #8d8f92;
-  margin-top: 20px;
 }
-.two {
-  margin-top: 30px;
-}
-.modest-icon {
+
+.modest_square{
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  margin-top: 106px;
+  margin-top: 20px;
 }
-.green {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #39a492;
-  width: 40px;
-  height: 40px;
+.square{
+  padding: 15px;
+  background-color: #23b7a3;
+  color: white;
 }
 
-.team {
+/* MEET THE TEAM */
+.team{
   height: 650px;
 }
-.team-man-one {
-  width: 262px;
-  height: 375px;
+.team_main{
+  display: flex;
+  margin-top: 65px;
+}
+.team_block {
   background-color: #e1e5e9;
 }
-.man-one-img {
-  height: 300px;
+.team_name_block{
+  padding: 20px;
 }
-.team-top {
-  margin-top: 30px;
-  display: flex;
-}
-.team-man {
-  margin: 10px;
-}
-.team-title {
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: flex-end;
-  align-items: center;  
+.team_name{
   text-transform: uppercase;
-  margin-top: 85px;
-  margin-left: 10px;
-  font-size: 36px;
-}
-.man-deskr {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  text-transform: uppercase;
-  padding: 10px;
-}
-.man-name {
   font-size: 16px;
 }
-.man-work {
-  color: #b4b7bb;
+.team_profession{
   font-size: 14px;
-  margin-top: 10px;
-}
-.team-man:hover .team-man-one {
-  background-color: black;
-  color: white;
-  cursor: pointer;
-  -webkit-transition: all 0.5s ease;
-  -moz-transition: all 0.5s ease;
-  -o-transition: all 0.5s ease;
-  transition: all 0.5s ease;
-}
-.team-man:hover .team-none {
-  display: flex;
-}
-.team-none {
-  display: none;
-  position: absolute;
-}
-.man-one-img {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.team-none img {
-  width: 40px;
-  height: 40px;
-  background-color: black;
-  margin: 1px;
+  margin-top: 5px;
+  color: #a2a3a7;
 }
 
 .kart {
@@ -562,8 +498,9 @@ body {
     flex: 0 0 16.66667%;
     max-width: 16.66667%;
   }
-  .col-md-2 {
-    display: none;
+  .col-sm-6{
+    flex: 0 0 50%;
+    max-width: 50%;
   }
   .col-sm-10 {
     flex: 0 0 83.33333%;
@@ -581,7 +518,10 @@ body {
     flex: 0 0 16.66667%;
     max-width: 16.66667%;
   }
-
+  .col-md-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
   .col-md-8 {
     flex: 0 0 66.66667%;
     max-width: 66.66667%;
@@ -611,18 +551,13 @@ body {
   .hidden-xs {
     display: none;
   }
-  .modest-bc {
-    display: none;
-  }
+  
 
   .menu-list {
     overflow: scroll;
     margin-top: 10px;
   }
-  .col-sm-2 {
-    display: flex;
-    justify-content: center;
-  }
+  
   .slider {
     display: flex;
     align-items: flex-start;
@@ -640,27 +575,7 @@ body {
     display: flex;
     justify-content: space-between;
   }
-  .modest-name {
-    margin-top: 20px;
-    text-align: center;
-  }
-  .modest {
-    height: 100%;
-  }
-  .modest-text {
-    margin-top: 15px;
-    text-align: center;
-    font-size: 15px;
-  }
-  .modest-descr {
-    display: none;
-  }
-  .modest-icon {
-    display: none;
-  }
-  .modest-mass {
-    text-align: center;
-  }
+  
   .team {
     height: 100%;
     padding: 20px;
