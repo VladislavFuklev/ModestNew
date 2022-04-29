@@ -36,7 +36,7 @@ body {
   border: 1px solid #1d2026;
   padding: 5px 10px;
 }
-.menu-list a{
+.menu-list a {
   padding: 5px 10px;
 }
 .home a {
@@ -130,13 +130,13 @@ body {
   text-transform: uppercase;
 }
 
-.modest_left{
+.modest_left {
   margin-top: 65px;
 }
-.modest_descr_two{
+.modest_descr_two {
   margin-top: 40px;
 }
-.modest_btn{
+.modest_btn {
   margin-top: 65px;
   margin-bottom: 65px;
 }
@@ -150,42 +150,41 @@ body {
   background-color: #23b7a3;
 }
 
-.block_one_title{
+.block_one_title {
   font-size: 18px;
   margin-top: 20px;
   text-transform: uppercase;
 }
-.block_one_text{
+.block_one_text {
   margin-top: 20px;
   font-size: 16px;
   color: #8d8f92;
 }
-.modest_block{
+.modest_block {
   display: flex;
   align-items: center;
   column-gap: 15px;
 }
-.modest_block:first-child{
+.modest_block:first-child {
   margin-top: 25px;
 }
-.block_square{
+.block_square {
   padding: 15px;
-  background-color:#39a493;
+  background-color: #39a493;
   width: 50px;
   height: 50px;
   color: white;
 }
 
-
 /* MEET THE TEAM */
 
-.team_img{
+.team_img {
   margin-top: 65px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.team_icon{
+.team_icon {
   position: absolute;
   display: none;
   transition: 0.5s all;
@@ -193,19 +192,19 @@ body {
 .team_icon img {
   background-color: black;
 }
-.team_block{
+.team_block {
   background-color: #e1e5e9;
   margin-bottom: 85px;
 }
 .team_name {
   padding: 15px 20px;
 }
-.name_profession{
+.name_profession {
   color: #a2a3a7;
   font-size: 14px;
   margin-top: 5px;
 }
-.team_block:hover{
+.team_block:hover {
   background-color: black;
   color: white;
   transition: 0.5s all;
@@ -218,22 +217,22 @@ body {
 }
 
 /* LOVELY */
-.lovely{
+.lovely {
   width: 100%;
   background-color: #39454d;
 }
-.lovely_work{
+.lovely_work {
   color: white;
   border-left: 10px solid #4d5961;
   margin-bottom: 65px;
 }
-.lovely_img{
+.lovely_img {
   display: flex;
   justify-content: center;
   align-items: flex-end;
   margin-top: 20px;
 }
-.lovely_btn{
+.lovely_btn {
   display: flex;
   justify-content: center;
   margin-top: 60px;
@@ -255,7 +254,7 @@ body {
   cursor: pointer;
   color: white;
 }
-.lovely_none{
+.lovely_none {
   display: none;
   position: absolute;
   background-color: #292f35;
@@ -272,30 +271,29 @@ body {
 }
 
 /* GAJET */
-.gajet{
+.gajet {
   padding-bottom: 80px;
 }
-.gajet_title{
+.gajet_title {
   color: black;
   margin-bottom: 85px;
 }
-.gajet_descr{
+.gajet_descr {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin-bottom: 74px;
 }
-.descr_title{
+.descr_title {
   margin-top: 30px;
 }
-.descr_text{
+.descr_text {
   text-align: center;
   font-size: 16px;
   color: #9a9c9f;
   margin-top: 30px;
 }
-
 
 /*tablet*/
 @media (min-width: 768px) {
@@ -311,10 +309,10 @@ body {
     max-width: 16.66667%;
   }
 
-  .hidden-xs{
+  .hidden-xs {
     display: none;
   }
-  .col-sm-6{
+  .col-sm-6 {
     flex: 0 0 50%;
     max-width: 50%;
   }
@@ -325,16 +323,14 @@ body {
   .menu-list {
     overflow: scroll;
   }
-  .modest_btn{
+  .modest_btn {
     display: flex;
     justify-content: center;
   }
-  .team_block{
+  .team_block {
     width: 80%;
   }
 }
-
-
 
 /*laptop*/
 @media (min-width: 991px) {
@@ -373,14 +369,13 @@ body {
   .menu-list {
     overflow: scroll;
   }
-  .modest_btn{
+  .modest_btn {
     display: flex;
     justify-content: flex-start;
   }
-  .team_block{
+  .team_block {
     width: 125%;
   }
-  
 }
 /*desktop*/
 @media (min-width: 1200px) {
@@ -394,7 +389,7 @@ body {
   .menu-list {
     overflow: visible;
   }
-  .team_block{
+  .team_block {
     width: 100%;
   }
 }
@@ -411,7 +406,7 @@ body {
     overflow: scroll;
     margin-top: 10px;
   }
-  .modest_logo{
+  .modest_logo {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -436,23 +431,19 @@ body {
   .slider-btn button {
     width: 200px;
   }
-  .title_modest{
+  .title_modest {
     display: flex;
     justify-content: center;
   }
-  .title_team{
+  .title_team {
     display: flex;
     justify-content: center;
   }
-  .modest_btn{
-    display: flex;
-    justify-content: center;
-  }
-  .team_block{
+  .team_block {
     text-align: center;
     width: 264px;
   }
-  .row_xs{
+  .row_xs {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -462,7 +453,7 @@ body {
     padding-right: 10px;
     padding-left: 10px;
   }
-  .modest_btn{
+  .modest_btn {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
