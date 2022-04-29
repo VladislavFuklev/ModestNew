@@ -271,6 +271,31 @@ body {
   cursor: pointer;
 }
 
+/* GAJET */
+.gajet{
+  padding-bottom: 80px;
+}
+.gajet_title{
+  color: black;
+  margin-bottom: 85px;
+}
+.gajet_descr{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 74px;
+}
+.descr_title{
+  margin-top: 30px;
+}
+.descr_text{
+  text-align: center;
+  font-size: 16px;
+  color: #9a9c9f;
+  margin-top: 30px;
+}
+
 
 /*tablet*/
 @media (min-width: 768px) {
@@ -281,6 +306,11 @@ body {
     flex: 0 0 16.66667%;
     max-width: 16.66667%;
   }
+  .col-sm-2 {
+    flex: 0 0 16.66667%;
+    max-width: 16.66667%;
+  }
+
   .hidden-xs{
     display: none;
   }
@@ -425,6 +455,16 @@ body {
   .row_xs{
     display: flex;
     flex-direction: column;
+    align-items: center;
+  }
+  .lovely_img img {
+    width: 100%;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .modest_btn{
+    flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
   }
 }
