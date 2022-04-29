@@ -178,9 +178,7 @@ body {
 
 
 /* MEET THE TEAM */
-.team{
-  height: 650px;
-}
+
 .team_img{
   margin-top: 65px;
   display: flex;
@@ -197,6 +195,7 @@ body {
 }
 .team_block{
   background-color: #e1e5e9;
+  margin-bottom: 85px;
 }
 .team_name {
   padding: 15px 20px;
@@ -218,6 +217,59 @@ body {
   cursor: pointer;
 }
 
+/* LOVELY */
+.lovely{
+  width: 100%;
+  background-color: #39454d;
+}
+.lovely_work{
+  color: white;
+  border-left: 10px solid #4d5961;
+  margin-bottom: 65px;
+}
+.lovely_img{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-top: 20px;
+}
+.lovely_btn{
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+.lovely_btn button {
+  background-color: #464a5c;
+  padding: 10px;
+  border-radius: 10px;
+  margin-right: 10px;
+  text-transform: uppercase;
+  color: #ffe5e5;
+  border: 1px solid #ffe5e5;
+  transition: 0.5s all;
+}
+.lovely_btn button:hover {
+  background-color: #39a492;
+  border: 1px solid #4d5961;
+  cursor: pointer;
+  color: white;
+}
+.lovely_none{
+  display: none;
+  position: absolute;
+  background-color: #292f35;
+  width: 360px;
+  padding: 20px;
+  color: white;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.lovely_img:hover .lovely_none {
+  display: flex;
+  cursor: pointer;
+}
 
 
 /*tablet*/
@@ -248,7 +300,7 @@ body {
     justify-content: center;
   }
   .team_block{
-    width: 260px;
+    width: 80%;
   }
 }
 
@@ -276,9 +328,17 @@ body {
     flex: 0 0 58.33333%;
     max-width: 58.33333%;
   }
+  .col-md-4 {
+    flex: 0 0 33.33333%;
+    max-width: 33.33333%;
+  }
   .col-md-5 {
     flex: 0 0 41.66667%;
     max-width: 41.66667%;
+  }
+  .col-md-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
   }
   .menu-list {
     overflow: scroll;
@@ -287,6 +347,9 @@ body {
     display: flex;
     justify-content: flex-start;
   }
+  .team_block{
+    width: 125%;
+  }
   
 }
 /*desktop*/
@@ -294,8 +357,15 @@ body {
   .container {
     max-width: 1170px;
   }
+  .col-sm-4 {
+    flex: 0 0 33.33333%;
+    max-width: 33.33333%;
+  }
   .menu-list {
     overflow: visible;
+  }
+  .team_block{
+    width: 100%;
   }
 }
 
