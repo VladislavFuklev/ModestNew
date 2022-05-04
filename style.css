@@ -320,6 +320,47 @@ body {
   color: #858d92;
 }
 
+/* TOUCH */
+
+.map{
+  margin-top: 60px;
+}
+.touch_desck{
+  margin-top: 50px;
+}
+.touch_text{
+  margin-top: 30px;
+  font-size: 16px;
+  color: #8d8f92;
+}
+.touch_title{
+  font-size: 20px;
+}
+
+
+/* FOOOTER */
+.footer{
+  background-color: #39454d;
+  margin-top: 100px;
+}
+.copyr{
+  color: white;
+}
+.footer_descr{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+
+}
+.footer_icon{
+  display: flex;
+  gap: 20px;
+}
+.footer_icon a{
+  font-size: 30px;
+  color: white;
+}
 /*tablet*/
 @media (min-width: 768px) {
   .container {
