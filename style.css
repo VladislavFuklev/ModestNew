@@ -558,4 +558,11 @@ body {
     text-align: center;
     width: 90%;
   }
+  .footer_descr{
+    flex-direction: column;
+    justify-content: center;
+  }
+  .footer_icon{
+    margin-top: 10px;
+  }
 }
