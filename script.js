@@ -23,3 +23,11 @@ function showModalScroll() {
 }
 }
 window.addEventListener("scroll",showModalScroll)
+
+
+
+var swiper = new Swiper(".mySwiper", {
+  pagination: {
+    el: ".swiper-pagination",
+  },
+});
