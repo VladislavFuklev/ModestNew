@@ -25,6 +25,14 @@ body {
   flex: 0 0 8.33333%;
   max-width: 8.33333%;
 }
+.col-xs-2 {
+  flex: 0 0 16.66667%;
+  max-width: 16.66667%;
+}
+.col-xs-10 {
+  flex: 0 0 83.33333%;
+  max-width: 83.33333%;
+}
 .col-xs-12 {
   flex: 0 0 100%;
   max-width: 100%;
